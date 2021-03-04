@@ -1,0 +1,23 @@
+{
+  "name": "actual-bot",
+  "version": "1.0.0",
+  "description": "Automated Discord App",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "keywords": [
+    "App",
+    "Pupteeer",
+    "Scrape",
+    "Discord"
+  ],
+  "author": "Malek",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.0",
+    "prettier": "^2.2.1",
+    "puppeteer": "^8.0.0"
+  }
+}
